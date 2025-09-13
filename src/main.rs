@@ -32,8 +32,9 @@ fn main() {
     println!("\n## Powers.");
     println!("{}", exponents::power(10.0, 2));
     println!("{}", exponents::power(100.0, 2));
-    println!("{}", exponents::power(2.0, 3));
-    println!("{}", exponents::power(45.0, 6));
+    println!("{}", exponents::power(322.0, 3));
+    println!("{}", exponents::power(2.0, -2));
+    println!("{}", exponents::power(45.0, -3));
     println!("{}", exponents::power(10.0, 1));
     println!("{}", exponents::power(0.0, 2));
     println!("{}", exponents::power(roots::root(25.0, 2.0), 2));
