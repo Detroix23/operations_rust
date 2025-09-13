@@ -16,7 +16,9 @@ fn main() {
     println!("{}", roots::root(27.0, 3.0)); 
     println!("{}", roots::root(10.0, 3.0)); 
     println!("{}", roots::root(2.0, 2.0)); 
-    println!("{}", roots::root(1.5, 2.0)); 
+    println!("{}", roots::root(1.5, 2.0));
+    println!("{}", roots::root(-27.0, 2.2));
+
 
     println!("\n## Logarithms.");
     println!("{}", logarithms::logarithm(100.0, 10.0));
@@ -28,11 +30,14 @@ fn main() {
     println!("{}", logarithms::logarithm(48.0, 2.0));
 
     println!("\n## Powers.");
-    println!("{}", exponents::power(10, 2));
-    println!("{}", exponents::power(100, 2));
-    println!("{}", exponents::power(2, 3));
-    println!("{}", exponents::power(45, 6));
-    println!("{}", exponents::power(10, 1));
-    println!("{}", exponents::power(0, 2))
+    println!("{}", exponents::power(10.0, 2));
+    println!("{}", exponents::power(100.0, 2));
+    println!("{}", exponents::power(2.0, 3));
+    println!("{}", exponents::power(45.0, 6));
+    println!("{}", exponents::power(10.0, 1));
+    println!("{}", exponents::power(0.0, 2));
+    println!("{}", exponents::power(roots::root(25.0, 2.0), 2));
+    println!("{}", exponents::power(roots::root(1.5, 2.0), 2));
+
 
 }
